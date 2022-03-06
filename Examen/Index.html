@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Interés Compuesto</title>
+    <link rel="icon" href="autito.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="Js/validacion.js" ></script>
+</head>
+<body>
+    <div class="main-container">
+        <head>
+            <nav>
+                <center><h1>Calcular Interés Compuesto Para la Compra de un Automóvil.</h1></center>
+            </nav>
+        </head>
+        <div style="text-align:left">
+            <head>
+                <nav>
+                    <h3><blockquote>Ingresa Los datos que se solicitan(:</blockquote></h3>
+                </nav>
+            </head>
+        </div>
+        <form method="post" name="index" 
+        onsubmit="return validar(this)"  action="">
+            <br>
+            <br>
+        <table width="657" height="134" border="1" align="center">
+            <tr>
+                <td><label><h4>Valor del Automovil: </h4></label> 
+                    <br>
+                    <input type="number" name="valordelauto" id="valordelauto" >
+                    <br>
+                </td>
+                <td><label><h4> Cuota Inicial: </h4></label> 
+                    <br>
+                    <input type="number" name="cuotai" id="cuotai" >
+                    <br>
+                </td>
+                <td><label><h4>Periodo (En meses): </h4></label> 
+                    <br>
+                    <input type="number" name="Periodo" id="Periodo" >
+                    <br>
+                </td>
+                <td><label><h4>Interés: </h4></label> 
+                    <br>
+                    <input type="number" name="interes" id="interes" >
+                    <br>
+                </td>
+                <td><label><h4>Cuota: </h4></label> 
+                    <br>
+                    <input type="number" name="cuota" id="cuota" >
+                    <br>
+                </td>
+              </tr>
+            </table>
+        
+            <br>
+            <section><center>
+            <input type="submit" name="enviar" value="Calcular">
+            <br>
+            <br>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+        </center>
+            </section>
+            <footer>
+                <br>
+                <h3><blockquote>Instituto Politécnico Nacional.</blockquote></h3>
+                <h3><blockquote>Centro de Estudios Científicos y Tecnológicos No.9 "Juan de Dios  Bátiz."</blockquote></h3>
+                <h3><blockquote>Nombre: Campos Blancas Frida Vanessa.</blockquote></h3>
+                <h3><blockquote>Grupo: 4IV8.</blockquote></h3>
+                <h3><blockquote>Boleta: 2021090785.</blockquote></h3>
+                <h3><blockquote>Unidad de Aprendizaje: PSW.</blockquote></h3>
+                <br>
+            </footer>
+            <center><a href="../index.html">Regresar al inicio</a></center>
+        </form>
+</body>
+</html>
