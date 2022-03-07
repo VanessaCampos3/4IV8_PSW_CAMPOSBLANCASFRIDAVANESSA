@@ -7,18 +7,18 @@
    
 }
 html, body{
-    background-color: #000000;
+    background-color: #c51515;
 }
 
 .main-container{
-    border: 6px solid #c51515;
+    border: 6px solid #131313;
     border-radius: 25px;
     margin:2rem;
     background-image: url("fondo.jpg");
 }
 
 nav, section, footer, article, aside{
-    border: 6px solid #c51515;
+    border: 6px solid #000000;
     margin: 1rem;
     border-radius: 10px;
     padding: 1rem;
@@ -33,6 +33,6 @@ article, aside{
 
 nav, section, footer{
     background-color: #c51515;
-    border: 6px solid #c51515;
+    border: 6px solid #000000;
     background-image: url(imagenes/fondo.jpg);
 }
