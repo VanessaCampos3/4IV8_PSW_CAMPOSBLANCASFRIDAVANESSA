@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Problema 1 -->
+        <div class="problema-containner">
+            <h2 class="problema-tittle" >Problema No.1</h2>
+            <h3>Suponga que un individuo desea invertir su capital en un banco y desea
+                saber cuánto dinero ganará después de un mes si el banco paga a razón de 
+                2% mensual.
+            </h3>
+            <div class="problema-content" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa el capital a Invertir: " id="p1-input" >
+                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema1()">Calcular</button>
+                <pre class="problema-output" id="p1-output" >Esperando Datos...</pre>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Problema 2 -->
+        <div class="problema-containner">
+            <h2 class="problema-tittle" >Problema No.2</h2>
+            <h3>Un vendedor Recibe un sueldo base más un 10% extra por comisión de 
+                sus ventas, el  vendedor desea saber cuánto dinero obtendrá por concepto
+                de comisiones por las 3 ventas que realiza en el mes y el total que recibirá en el mes 
+                tomando en cuenta su sueldo base y comisiones.
+            </h3>
+            <div class="problema-content" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa el sueldo base: " id="p2-input1" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la comisión de la primera venta: " id="p2-input2" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la comisión de la segunda venta: " id="p2-input3" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la comisión de la tercera venta: " id="p2-input4" >
+                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema2()">Calcular</button>
+                <pre class="problema-output" id="p2-output" >Esperando Datos...</pre>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Problema 3 -->
+        <div class="problema-containner">
+            <h2 class="problema-tittle" >Problema No.3</h2>
+            <h3>Una tienda ofrece un descuento del 15% sobre el total de la compra
+                y un cliente desea saber cuanto pagará finalmente por su compra.
+            </h3>
+            <div class="problema-content" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa el capital a Invertir: " id="p3-input" >
+                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema3()">Calcular</button>
+                <pre class="problema-output" id="p3-output" >Esperando Datos...</pre>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Problema 4 -->
+        <div class="problema-containner">
+            <h2 class="problema-tittle" >Problema No.4<No class="4"></No></h2>
+            <h3>Un alumno desea saber cual será su calificación final en la materia de 
+                Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
+            </h3>
+            <h3>55% del promedio de sus 3 calificaciones parciales.</h3>
+            <h3>30% de la calificación del exámen parcial.</h3>
+            <h3>15% de la calificación de un trabajo final.</h3>
+            <div class="problema-content" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la calificación del 1er parcial: " id="p4-input1" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la calificación del 2do parcial: " id="p4-input2" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la calificación del 3er parcial: " id="p4-input3" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la calificación del exámen Parcial: " id="p4-input4" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la calificación del trabajo Final: " id="p4-input5" >
+                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema4()">Calcular</button>
+                <pre class="problema-output" id="p4-output" >Esperando Datos...</pre>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Problema 5 -->
+        <div class="problema-containner">
+            <h2 class="problema-tittle" >Problema No.5</h2>
+            <h3>Un maestro desea saber qué porcentaje de hombres y qué porcentaje de 
+                mujeres hay en un grupo de estudiantes.
+            </h3>
+            <div class="problema-content" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la cantidad de mujeres en el grupo: " id="p5-input1" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa la cantidad de hombres en el grupo: " id="p5-input2" >
+                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema5()">Calcular</button>
+                <pre class="problema-output" id="p5-output" >Esperando Datos...</pre>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Problema 6 -->
+        <div class="problema-containner">
+            <h2 class="problema-tittle" >Problema No.6</h2>
+            <h3>Realizar un algoritmo que calcule la edad de una persona.
+            </h3>
+            <div class="problema-content" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa el día actual: " id="p6-input1" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa el mes actual: " id="p6-input2" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa el año actual: " id="p6-input3" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa el día de Nacimiento: " id="p6-input4" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa el mes de Nacimiento: " id="p6-input5" >
+                <input type="text" class="problema-input"
+                placeholder="Ingresa el año de Nacimiento: " id="p6-input6" >
+                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema6()">Calcular</button>
+                <pre class="problema-output" id="p6-output" >Esperando Datos...</pre>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/logica.js"></script>
+</body>
+</html>
