@@ -1,3 +1,45 @@
+//Problema 1.
+
+function problema1(){
+
+    var p1_input = document.getElementById("p1-input").value;
+
+    var palabra1 = p1_input.split(" ");
+
+    var palabra2 = [];
+
+    for(i = (palabra1.length-1); i > -1; i--){
+
+        palabra2.push(palabra1[i]);
+
+    }
+
+    document.querySelector("#p1-output").textContent = palabra2;
+
+}
+
+
+//Problema 2.
+
+function problema2(){
+
+    var x1 = document.getElementById('p2-x1').value;
+    var x2 = document.getElementById('p2-x2').value;
+    var x3 = document.getElementById('p2-x3').value;
+    var x4 = document.getElementById('p2-x4').value;
+    var x5 = document.getElementById('p2-x5').value;
+    var y1 = document.getElementById('p2-y1').value;
+    var y2 = document.getElementById('p2-y2').value;
+    var y3 = document.getElementById('p2-y3').value;
+    var y4 = document.getElementById('p2-y4').value;
+    var y5 = document.getElementById('p2-y5').value;
+
+    var resultados = (x1 * y1) + (x2 * y2) + (x3 * y3) + (x4 * y4) + (x5 * y5);
+
+
+    document.querySelector('#p2-output').textContent = resultados; 
+
+}
 
 
 //Problema  3.
@@ -61,3 +103,4 @@ function problema3(){
     document.querySelector('#p3-output').textContent = p3_res;
 
 }
+
